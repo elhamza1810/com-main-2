@@ -139,9 +139,9 @@ export default function organi() {
             ORGANISATION
           </h1>
           <p className="max-w-4xl mx-auto text-[15px] leading-[35px] tracking-[1px] 2xl:tracking-[2px] lg:text-[20px]  xl:text-[17px] xl:leading-[45px] text-white 2xl:leading-[50px] 2xl:text-[22px]" style={{fontFamily: "Raleway", color: "#003851"}}>
-            La force du Groupe Arena Property Development repose sur l'agilité de son organisation et l'expertise&nbsp;  
-            pluridisciplinaire de ses collaborateurs. Sous la direction de notre CEO, chaque direction s'efforce à&nbsp;  
-            atteindre l'excellence tout en garantissant un leadership efficace. Cette configuration permet au Groupe&nbsp; 
+            La force du Groupe Arena Property Development repose sur l'agilité de son organisation et l'expertise 
+            pluridisciplinaire de ses collaborateurs. Sous la direction de notre CEO, chaque direction s'efforce à 
+            atteindre l'excellence tout en garantissant un leadership efficace. Cette configuration permet au Groupe 
              d'adresser de manière adéquate les attentes de ses clients et partenaires.
           </p>
         </section>

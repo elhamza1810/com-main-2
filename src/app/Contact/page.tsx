@@ -154,14 +154,24 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 w-full">
+     {/*     <div className="w-full mt-20">
+  <Image 
+    src={img2} 
+    alt="Bottom Image" 
+    className="w-full object-cover" 
+    height={400} 
+    width={1920}
+  />
+</div> */}
+
+       <div className="absolute mt-10 bottom-0 left-0 w-full">
           <Image 
             src={img2} 
             alt="Bottom Image" 
             className="w-full object-cover" 
             layout="responsive"
           />
-        </div>
+        </div> 
       </section>
     </div>
   )

@@ -118,15 +118,15 @@ export default function NotreGroupe() {
                                         transition={{ duration: 0.5 }}
                                     >
                                         <Quote className="inline-block text-[#003851] w-4 h-4 mr-2 align-middle rotate-180" />
-                                         Arena est née en 2015 avec une mission claire : repenser l'immobilier au Maroc pour en faire un levier&nbsp;
-                                        d'innovation, de qualité et de durabilité. En partant du logement social jusqu'aux projets les plus&nbsp;
-                                        prestigieux, nous avons toujours eu à cœur de répondre aux besoins réels des clients tout en anticipant&nbsp;
+                                         Arena est née en 2015 avec une mission claire : repenser l'immobilier au Maroc pour en faire un levier 
+                                        d'innovation, de qualité et de durabilité. En partant du logement social jusqu'aux projets les plus
+                                        prestigieux, nous avons toujours eu à cœur de répondre aux besoins réels des clients tout en anticipant
                                         les enjeux de demain.<br /><br />
-                                        Nos projets se distinguent par leur conception audacieuse et leur engagement envers l'excellence. Qu'il&nbsp;
-                                        s'agisse d'introduire des innovations inédites dans le logement social ou de collaborer avec des&nbsp;
-                                        architectes et designers de renom pour des résidences haut de gamme, notre objectif est de créer des&nbsp;
+                                        Nos projets se distinguent par leur conception audacieuse et leur engagement envers l'excellence. Qu'il
+                                        s'agisse d'introduire des innovations inédites dans le logement social ou de collaborer avec des
+                                        architectes et designers de renom pour des résidences haut de gamme, notre objectif est de créer des
                                         espaces qui marient confort, modernité et respect de l'environnement.<br /><br />
-                                        Avec cette vision, nous continuons à bâtir des projets qui inspirent, tout en plaçant les aspirations de nos&nbsp;
+                                        Avec cette vision, nous continuons à bâtir des projets qui inspirent, tout en plaçant les aspirations de nos
                                         clients et la durabilité au cœur de nos actions.
                                         <Quote className="inline-block text-[#003851] w-4 h-4 mr-2 align-middle " /> 
                                     </motion.p>
@@ -224,16 +224,16 @@ export default function NotreGroupe() {
                                 animate={{ opacity: 1 }}
                                 transition={{ duration: 0.5 }}
                             >
-                                Arena Property Development est une société marocaine de promotion immobilière qui s'impose comme un acteur clé du&nbsp;
-                                secteur. Née avec une ambition claire de redéﬁnir les standards de l'immobilier, Arena combine innovation, qualité et&nbsp;
+                                Arena Property Development est une société marocaine de promotion immobilière qui s'impose comme un acteur clé du
+                                secteur. Née avec une ambition claire de redéﬁnir les standards de l'immobilier, Arena combine innovation, qualité et
                                 engagement envers la durabilité pour transformer les espaces de vie au Maroc.<br /><br />
-                                Le groupe se distingue par sa capacité à conjuguer des visions locales et internationales grâce à des partenariats&nbsp;
-                                stratégiques solides. Cette approche lui permet de tirer parti d'expertises diversiﬁées pour concevoir des projets qui&nbsp;
+                                Le groupe se distingue par sa capacité à conjuguer des visions locales et internationales grâce à des partenariats
+                                stratégiques solides. Cette approche lui permet de tirer parti d'expertises diversiﬁées pour concevoir des projets qui
                                 répondent aux besoins évolutifs du marché tout en intégrant les meilleures pratiques environnementales.<br /><br />
-                                Avec une attention particulière portée à la création de valeur pour toutes les parties prenantes, Arena s'appuie sur des&nbsp;
-                                actionnariats institutionnels pour garantir la pérennité et l'impact positif de ses investissements. Cette dynamique reﬂète&nbsp;
+                                Avec une attention particulière portée à la création de valeur pour toutes les parties prenantes, Arena s'appuie sur des
+                                actionnariats institutionnels pour garantir la pérennité et l'impact positif de ses investissements. Cette dynamique reﬂète
                                 une stratégie à long terme, ancrée dans la conﬁance mutuelle et l'excellence opérationnelle.<br />
-                                Le groupe poursuit son développement avec une ambition constante : devenir une référence incontournable en matière de&nbsp;
+                                Le groupe poursuit son développement avec une ambition constante : devenir une référence incontournable en matière de
                                 conception et de réalisation de projets immobiliers qui allient esthétisme, fonctionnalité, innovation et durabilité.<br />
                                 <br />
                             </motion.p>
@@ -289,13 +289,13 @@ export default function NotreGroupe() {
                 </p>
                 <p className="text-justify px-6 lg:px-0 lg:text-center lg:max-w-4xl 2xl:max-w-6xl mx-auto text-[15px] leading-[35px]  xl:text-[17px] xl:leading-[45px] 2xl:text-[22px] 2xl:leading-[50px] tracking-[1px] 2xl:tracking-[2px]" style={{ fontFamily: "Raleway", color: "#003851" }}>
 
-                    Pour mieux accompagner les sujets de gouvernance et répondre de manière adéquate aux&nbsp;
-                    problématiques et risques inhérents aux activités métiers, support et de pilotage, le Groupe a déployé&nbsp;
-                    un dispositif de contrôle interne et de management des risques dans le but de créer et préserver la&nbsp;
-                    valeur, les actifs et la réputation du Groupe. A cet eﬀet, ce dispositif basé sur les risques vise à&nbsp;
+                    Pour mieux accompagner les sujets de gouvernance et répondre de manière adéquate aux
+                    problématiques et risques inhérents aux activités métiers, support et de pilotage, le Groupe a déployé
+                    un dispositif de contrôle interne et de management des risques dans le but de créer et préserver la
+                    valeur, les actifs et la réputation du Groupe. A cet eﬀet, ce dispositif basé sur les risques vise à
                     identiﬁer, mesurer et suivre les risques critiques auxquels le Groupe est confronté, à anticiper leur
                     évolution, et mettre en place des actions de maitrise des risques résiduels.<br />
-                    Le contrôle des opérations et des procédures internes s’exerce de manière permanente ou périodique&nbsp;
+                    Le contrôle des opérations et des procédures internes s’exerce de manière permanente ou périodique
                     sur trois couches de contrôle et à travers diﬀérents acteurs clés.<br />
                 </p>
                 <img src={thetwo.src} alt="thetwo" className="mx-auto w-[1000px] h-auto mt-20 mb-20"></img>
@@ -322,13 +322,13 @@ export default function NotreGroupe() {
                 <p className="text-base relative z-10 text-[15px] mb-[10%] lg:mb-0 leading-[35px] text-[#141C48] tracking-[1px] 2xl:tracking-[2px] xl:text-[17px] 2xl:text-[22px]  xl:leading-[45px] 2xl:leading-[50px]  xl:max-w-4xl 2xl:max-w-6xl mt-2"
                     style={{ fontFamily: "Raleway", color: "white" }}
                 >
-                    Le Groupe a mis en œuvre un dispositif de management systématique et dynamique de ses risques,&nbsp;
-                    en identiﬁant les risques inhérents à ses processus grâce à un exercice de cartographie des risques,&nbsp;
-                    et en déﬁnissant une stratégie d’atténuation spéciﬁque pour chaque risque jugé critique. Notre&nbsp;
+                    Le Groupe a mis en œuvre un dispositif de management systématique et dynamique de ses risques,
+                    en identiﬁant les risques inhérents à ses processus grâce à un exercice de cartographie des risques,
+                    et en déﬁnissant une stratégie d’atténuation spéciﬁque pour chaque risque jugé critique. Notre
                     analyse des risques fait partie intégrante des processus opérationnels et décisionnels du Groupe.<br />
                     <br />
-                    Le dispositif mis en place repose sur les directives de la norme ISO 31000. Un référentiel spéciﬁque a&nbsp;
-                    été élaboré par le Groupe aﬁn d’uniformiser les pratiques et de fournir au Risk Manager les outils&nbsp;
+                    Le dispositif mis en place repose sur les directives de la norme ISO 31000. Un référentiel spéciﬁque a
+                    été élaboré par le Groupe aﬁn d’uniformiser les pratiques et de fournir au Risk Manager les outils
                     nécessaires pour accomplir eﬃcacement ses missions.
                     <br />
                 </p>

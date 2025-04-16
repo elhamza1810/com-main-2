@@ -7,7 +7,7 @@ import Alogo from "@/assets/A-logo.png";
 import bg from "@/assets/bg.jpg";
 import img2 from "@/assets/footrimg.png"
 
-
+import Link from 'next/link';
 
 import Chiffres from "@/components/chiffres";
 
@@ -39,6 +39,8 @@ import { IoIosArrowDropright } from "react-icons/io";
 import Sanam from "@/assets/Sanam holding.png";
 import alaliamaak from "@/assets/Al-Alia-maak.jpg";
 import "@/app/globals.css";
+
+import { X } from "lucide-react"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
@@ -241,6 +243,7 @@ const brandImages = [
         <h2 className="text-xl  xl:text-2xl 2xl:text-4xl font-medium text-[#212046] mb-4">
           QUI SOMMES NOUS?
         </h2>
+       
 
   <motion.p 
     className="text-base md:text-lg xl:text-[18px] 2xl:text-[22px] text-[#141C48] xl:max-w-4xl 2xl:max-w-6xl leading-relaxed lg:font-[350] lg:tracking-[1.5px] lg:leading-[46px] mt-6"
@@ -267,7 +270,7 @@ const brandImages = [
     Le groupe se distingue par sa capacité à conjuguer des visions locales et internationales
     grâce à des partenariats stratégiques solides.
   </motion.p>
-
+  <Link href="NotreGroupe"> 
   <motion.button
     className="mt-6 px-6 py-2 text-lg border border-[#141C48] text-[#141C48] hover:text-white hover:bg-[#141C48] transition"
     style={{
@@ -285,6 +288,7 @@ const brandImages = [
   >
     En savoir plus
   </motion.button>
+  </Link>
 </section>
 
       {/* Section : Vision & Valeurs */}
@@ -426,12 +430,13 @@ const brandImages = [
 <h2 className="text-2xl xl:text-3xl 2xl:text-4xl text-center m-8 md:mt-[5%]" style={{ color: '#003851', fontFamily: 'Romelio' }}>ACTUALITES</h2>
 <section id="actualites" className="py-8 md:py-16 w-full  relative min-h-[400px] md:min-h-[600px]">
   {/* Desktop Arrow Buttons - Only visible on large screens (above 1024px) */}
-  <button onClick={handlePrevClick} className="hidden lg:block absolute m-5 left-0 top-1/2 transform -translate-y-1/2 p-4">
+  {/* <button onClick={handlePrevClick} className="hidden lg:block absolute m-5 left-0 top-1/2 transform -translate-y-1/2 p-4">
     <IoIosArrowDropleft className="w-16 h-24 text-[#034e58]" />
   </button>
   <button onClick={handleNextClick} className="hidden lg:block absolute right-0 top-1/2 transform -translate-y-1/2 p-4">
     <IoIosArrowDropright className="w-16 h-24 text-[#034e58]" />
   </button>
+  */}
 
   <div className="w-full max-w-8xl mx-auto px-6 ml-2">
     {/* Desktop view - only shown on large screens (above 1024px) */}
@@ -574,72 +579,87 @@ const brandImages = [
 </section> 
 
       {/* Section : Contact */}
-      <section
-        id="contact"
-        className="relative flex justify-center items-start min-h-screen h-200vh bg-cover bg-center px-4"
-        style={{ backgroundImage: `url(${img2.src})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPositionY: "80%"
-        }}
+     {/* Section : Contact */}
+<section
+  id="contact"
+  className="relative flex justify-center items-start min-h-screen h-200vh bg-cover bg-center px-4"
+  style={{
+    backgroundImage: `url(${img2.src})`,
+    backgroundRepeat: "no-repeat",
+    backgroundPositionY: "80%"
+  }}
+>
+  {!showForm ? (
+    <button
+      className="px-6 py-2 hover:bg-[#003851] hover:text-white text-lg xl:text-xl 2xl:text-2xl text-custom-blue border-2 border-custom-blue transform mt-44 xl:mt-40 2xl:mt-48 translate-y-[8vh] lg:translate-y-[5vh] lg-translate-x-48"
+      onClick={handleContactClick}
+    >
+      CONTACTEZ-NOUS
+    </button>
+  ) : (
+    <div className="flex flex-col items-center mt-20 lg:mt-32 w-full">
+      
+      <form
+        className="relative mt-80 bg-white p-8 rounded shadow-md w-full max-w-md"
+        onSubmit={handleFormSubmit}
       >
-        {!showForm ? (
+        {/* Bouton Fermer positionné dans le coin haut droit du formulaire */}
+        <button
+          onClick={() => setShowForm(false)}
+          type="button"
+          className="absolute top-4 right-4 text-custom-blue hover:text-red-500"
+        >
+          <X size={24} />
+        </button>
+
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+            Nom
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            required
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+            Email
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            required
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+            Message
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            required
+          />
+        </div>
+        <div className="flex items-center justify-between">
           <button
-            className="px-6 py-2 hover:bg-[#003851] hover:text-white text-lg xl:text-xl 2xl:text-2xl text-custom-blue border-2 border-custom-blue transform  mt-44 xl:mt-40 2xl:mt-48 translate-y-[8vh]  lg:translate-y-[5vh] lg-translate-x-48"
-            onClick={handleContactClick}
+            type="submit"
+            className="bg-[#003851] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
-            CONTACTEZ-NOUS
+            Envoyer
           </button>
-        ) : (
-          <form
-            className="mt-80 bg-white p-8 rounded shadow-md w-full max-w-md"
-            onSubmit={handleFormSubmit}
-          >
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
-                Nom
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                required
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                required
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                required
-              />
-            </div>
-            <div className="flex items-center justify-between">
-              <button
-                type="submit"
-                className="bg-[#003851] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-              >
-                Envoyer
-              </button>
-            </div>
-          </form>
-        )}
-      </section>
+        </div>
+      </form>
+    </div>
+  )}
+</section>
+
     </div>
   );
 }

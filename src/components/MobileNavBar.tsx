@@ -18,7 +18,9 @@ const MobileSidebar = () => {
       {/* Top Bar with Logo & Menu Button */}
       <div className="flex xl:hidden items-center justify-between p-4 bg-[#003851] shadow-md fixed top-0 left-0 w-full z-50">
         {/* Logo on the Left */}
+        <Link href="/" className=" flex items-center ">
         <Image src={logo} alt="Logo" width={150} height={50} className="z-50" priority />
+        </Link>
 
         {/* Menu Button on the Right */}
         <button

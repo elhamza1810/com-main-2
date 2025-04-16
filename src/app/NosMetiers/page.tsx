@@ -92,19 +92,19 @@ const NosMetiers = () => {
                 </h2>
 
                 <div className="space-y-8 2xl:space-y-10 max-w-3xl 2xl:max-w-4xl lg:mb-2">
-                  <p className="text-justify leading-[39px]  2xl:leading-[45px] tracking-[1px] xl:text-[18px] 2xl:text-[20px] raleway "style={{textAlignLast: "right" }}>
+                  <p className="text-justify leading-[39px]  2xl:leading-[45px] tracking-[1px] xl:text-[18px] 2xl:text-[20px] raleway "style={{textAlignLast: "left" }}>
                     La maîtrise d'ouvrage déléguée est bien plus qu'une prestation technique : c'est un partenariat stratégique qui transforme vos ambitions en réalisations concrètes. Forts de plus de 10 ans d'expérience dans le secteur, nous mettons à votre disposition les meilleurs talents et équipes, dédiés au pilotage et à la réalisation de grands projets.
                   </p>
 
-                  <p className="text-justify leading-[39px]  2xl:leading-[45px] tracking-[1px] xl:text-[18px] 2xl:text-[20px] raleway "style={{textAlignLast: "right" }}>
+                  <p className="text-justify leading-[39px]  2xl:leading-[45px] tracking-[1px] xl:text-[18px] 2xl:text-[20px] raleway "style={{textAlignLast: "left" }}>
                     En nous confiant la gestion complète de vos projets, vous bénéficiez d'une expertise pointue et d'un accompagnement sur mesure, garantissant le respect des délais, des budgets et des standards de qualité les plus élevés.
                   </p>
 
-                  <p className="text-justify leading-[39px]  2xl:leading-[45px] tracking-[1px] xl:text-[18px] 2xl:text-[20px] raleway "style={{textAlignLast: "right" }}>
+                  <p className="text-justify leading-[39px]  2xl:leading-[45px] tracking-[1px] xl:text-[18px] 2xl:text-[20px] raleway "style={{textAlignLast: "left" }}>
                     De la planification initiale à la livraison finale, nous orchestrons chaque étape avec rigueur et transparence, tout en veillant à préserver l'intégrité de votre vision. Qu'il s'agisse de projets résidentiels, commerciaux ou d'infrastructures complexes, nous mobilisons les meilleurs talents et outils pour maximiser la valeur de vos investissements.
                   </p>
 
-                  <p className="text-justify leading-[39px]  2xl:leading-[45px] tracking-[1px] xl:text-[18px] 2xl:text-[20px] raleway "style={{textAlignLast: "right" }}>
+                  <p className="text-justify leading-[39px]  2xl:leading-[45px] tracking-[1px] xl:text-[18px] 2xl:text-[20px] raleway "style={{textAlignLast: "left" }}>
                     Parce que chaque projet mérite un pilotage d'exception, nous nous engageons à transformer vos idées en succès durables et impactants.
                   </p>
                 </div>
