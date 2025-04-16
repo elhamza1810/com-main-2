@@ -30,7 +30,7 @@ import newwork from "@/assets/new-work.png";
 
 import {InfiniteLogoCarousel} from "@/components/carou";
 import aeco from "@/assets/ÉCO.ma_.png";
-import a360 from "@/assets/le360.png";
+import a360 from "@/assets/Le360.png";
 import am24 from "@/assets/logo.m24.png";
 
 import contactus from "@/assets/contactus.png";
